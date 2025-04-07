@@ -82,6 +82,21 @@ public class Main{
                 System.out.println("入力エラー");
                 break;
         } 
+
+        switch(2){
+            case 1:
+                System.out.println("A");
+                break;
+            case 2:
+                System.out.println("B");
+                break;
+            case 3:
+                System.out.println("C");
+                break;
+            default:
+                System.out.println("その他");
+                break;
+        }
         // ここまでswitchMan
     }
 }
