@@ -6,7 +6,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         //　ここから
         if(!sc.hasNextInt()){
-                
+                // どうもtryMan
             System.out.println("入力されていません");
             return;
         }
@@ -43,6 +43,7 @@ public class Main{
             }
             System.out.println();
         }
+        // どうもtryMan
         for(int a = 1;a <= 100;a++){
             a += a;
         }
@@ -58,6 +59,7 @@ public class Main{
         
         switch(day){
             case 1:
+            // どうもtryMan
                 System.out.println("月曜日");
                 break;
             case 2:
@@ -100,7 +102,11 @@ public class Main{
         // ここまでswitchMan
 
         //　ここから
-
+            try{
+                int x = 5 / 0;
+            } catch (ArithmeticException e){
+                System.out.println("0では割れません");
+            }
         //　ここまでtryMan
     }
 }
