@@ -6,6 +6,6 @@ public class Main{
         System.out.println("I'm issue2");
         System.out.println("I'm issue3");
         System.out.println("I'm issue4");
-        system.out.println("i'm issue5");
+        System.out.println("I'm issue5");
     }
 }
