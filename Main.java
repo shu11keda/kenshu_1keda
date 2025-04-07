@@ -45,7 +45,6 @@ public class Main{
             }
             System.out.println();
         }
-        // どうもtryMan
         for(int a = 1;a <= 100;a++){
             a += a;
         }
@@ -61,7 +60,6 @@ public class Main{
         
         switch(day){
             case 1:
-            // どうもtryMan
                 System.out.println("月曜日");
                 break;
             case 2:
@@ -83,6 +81,7 @@ public class Main{
                 System.out.println("日曜日");
                 break;
             default:
+            // えらーはじく
                 System.out.println("入力エラー");
                 break;
         } 
@@ -102,13 +101,5 @@ public class Main{
                 break;
         }
         // ここまでswitchMan
-
-        //　ここから
-            try{
-                int x = 5 / 0;
-            } catch (ArithmeticException e){
-                System.out.println("0では割れません");
-            }
-        //　ここまでtryMan
     }
 }
