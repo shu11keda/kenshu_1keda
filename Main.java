@@ -38,6 +38,7 @@ public class Main{
         // ここから
 
         System.out.println("★ 九九表(1~9) ★");
+        // ここがfor文
         for(int i = 1;i <= 9;i++){
             for(int j = 1;j <= 9; j++){
                 System.out.print(i * j + "\t");
