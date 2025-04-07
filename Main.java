@@ -22,7 +22,7 @@ public class Main{
         //　ここまでifMan
 
         // ここから
-
+        
         // ここまでforMan
 
         //　ここから
