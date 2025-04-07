@@ -6,7 +6,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         //　ここから
         if(!sc.hasNextInt()){
-                
+                // 入力エラー防ぐ
             System.out.println("入力されていません");
             return;
         }
