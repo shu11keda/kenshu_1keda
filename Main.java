@@ -11,6 +11,7 @@ public class Main{
             return;
         }
         int score = sc.nextInt();
+        int age = sc.nextInt();
         
         if(score == 100){
             System.out.println("特待生");
@@ -18,6 +19,18 @@ public class Main{
             System.out.println("合格");
         }else if(score >= 69){
             System.out.println("不合格");
+        }
+
+        if(age < 0 || age > 120){
+            System.out.println("正しい年齢を入力して下さい");
+        }else if(age <= 3){
+            System.out.println("入場料は無料です");
+        }else if(age <= 12){
+            System.out.println("入場料は子供料金の５００円です");
+        }else if(age <= 64){
+            System.out.println("入場料は子供料金の１０００円です");
+        }else if(age <= 120){
+            System.out.println("入場料は高齢者料金の８００円です");
         }
         //　ここまでifMan
 
