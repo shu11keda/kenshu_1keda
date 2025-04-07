@@ -43,7 +43,6 @@ public class Main{
             }
             System.out.println();
         }
-        // どうもtryMan
         for(int a = 1;a <= 100;a++){
             a += a;
         }
@@ -59,7 +58,6 @@ public class Main{
         
         switch(day){
             case 1:
-            // どうもtryMan
                 System.out.println("月曜日");
                 break;
             case 2:
