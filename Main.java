@@ -79,6 +79,7 @@ public class Main{
                 System.out.println("日曜日");
                 break;
             default:
+            // えらーはじく
                 System.out.println("入力エラー");
                 break;
         } 
