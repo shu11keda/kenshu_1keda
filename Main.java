@@ -99,13 +99,5 @@ public class Main{
                 break;
         }
         // ここまでswitchMan
-
-        //　ここから
-            try{
-                int x = 5 / 0;
-            } catch (ArithmeticException e){
-                System.out.println("0では割れません");
-            }
-        //　ここまでtryMan
     }
 }
