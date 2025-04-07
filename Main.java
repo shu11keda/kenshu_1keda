@@ -12,10 +12,13 @@ public class Main{
         }
         int score = sc.nextInt();
         
-        if(score >= 60){
+        if(score == 100){
+            System.out.println("特待生");
+        }else if(score >= 99 && score <= 70){
             System.out.println("合格");
-        }else {
+        }else if(score >= 69){
             System.out.println("不合格");
+        }
         //　ここまでifMan
 
         // ここから
